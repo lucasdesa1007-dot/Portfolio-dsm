@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+ 
+html {
+scroll-behavior: smooth;
+}
+ 
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f4f1eb;
+color: #252525;
+line-height: 1.6;
+}
+ 
+/* Cabeçalho */
+ 
+header {
+background-color: #1f2a24;
+color: white;
+padding: 20px 8%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+ 
+header h1 {
+font-size: 24px;
+}
+ 
+nav {
+display: flex;
+gap: 25px;
+}
+ 
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+transition: 0.3s;
+}
+ 
+nav a:hover {
+color: #c5a85c;
+}
+ 
+/* Conteúdo principal */
+ 
+main {
+max-width: 1000px;
+margin: 0 auto;
+padding: 40px 20px;
+}
+ 
+section {
+background-color: white;
+margin-bottom: 35px;
+padding: 35px;
+border-radius: 10px;
+box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+scroll-margin-top: 100px;
+}
+ 
+section h2 {
+color: #1f2a24;
+font-size: 28px;
+margin-bottom: 20px;
+border-bottom: 2px solid #c5a85c;
+padding-bottom: 8px;
+}
+ 
+section p {
+margin-bottom: 12px;
+}
+ 
+/* Página inicial */
+ 
+#inicio {
+text-align: center;
+padding: 70px 35px;
+background-color: #26352d;
+color: white;
+}
+ 
+#inicio h2 {
+color: white;
+border-bottom: 2px solid #c5a85c;
+}
+ 
+#inicio p {
+font-size: 18px;
+}
+ 
+/* Sobre mim */
+ 
+.sobre-conteudo {
+  display: flex;
+  align-items: center; /* Alinha verticalmente ao centro */
+  gap: 30px; /* Espaço entre a imagem e o texto */
+}
+ 
+.sobre-conteudo img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+ 
+.sobre-texto {
+  flex: 1; /* Faz o texto ocupar o restante espaço disponível */
+}
+
+/* Diário de bordo */
+ 
+article {
+background-color: #f8f7f4;
+padding: 20px;
+margin-bottom: 20px;
+border-left: 4px solid #c5a85c;
+border-radius: 5px;
+}
+ 
+article h3 {
+color: #1f2a24;
+margin-bottom: 5px;
+}
+ 
+article p {
+margin-bottom: 8px;
+}
+ 
+ul {
+margin-left: 25px;
+}
+ 
+/* Atividades */
+ 
+#atividades > article {
+margin-bottom: 25px;
+}
+ 
+#atividades h3 {
+margin-top: 20px;
+}
+ 
+/* Reflexões */
+ 
+#atividades > h3 {
+color: #1f2a24;
+margin-top: 20px;
+}
+ 
+#atividades > h2:last-of-type {
+margin-top: 40px;
+}
+ 
+/* Eventos */
+ 
+#evento img {
+display: block;
+width: 100%;
+max-width: 700px;
+max-height: 450px;
+object-fit: cover;
+margin: 15px auto 35px;
+border-radius: 8px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+ 
+#evento h3 {
+color: #1f2a24;
+margin-top: 20px;
+}
+ 
+/* Responsividade para celular */
+ 
+@media (max-width: 700px) {
+ 
+header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+ 
+nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+ 
+main {
+    padding: 20px 10px;
+}
+ 
+section {
+    padding: 25px 20px;
+}
+ 
+section h2 {
+    font-size: 24px;
+}
+}
+ 
+/* links do evento */
+ 
+#inicio {
+    padding: 50px 20px;
+}
+ 
+#inicio p {
+    font-size: 16px;
+}
+ 
+ 
+ 
