@@ -19,20 +19,6 @@ Tecnologias utilizadas
 - HTML5
 - CSS3
  
-Estrutura do projeto
- 
-portfolio/
-│
-├── index.html
-│
-├── css/
-│   └── portfolio.css
-│
-└── fotos/
-    ├── image_jpeg (1).jpg
-    ├── Visita.jpg
-    └── palestra.jpg
- 
 Autor
  
 Lucas Silva De Sá
